@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color:hsl(217, 54%, 11%) ;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main_box{
+    text-align: center;
+    display: flex;
+    background-color: hsl(216, 50%, 16%);
+    flex-flow: column nowrap;
+    width: 300px ;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 50px ;
+    
+}
+.Info_container h2{
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px ;
+    margin-left: 25px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+
+}
+.Info_container p{
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-weight: 300;
+
+}
+.time{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.ETH{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.ETH img{
+    float: left;
+}
+.ETH h2{
+    font-size: 12px;
+    color: hsl(178, 100%, 50%);
+    display: inline-block;
+    text-align: center;
+    padding-left: 5px;
+    
+}
+.clock{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.clock img{
+    float: left;
+}
+.clock h2{
+    font-size: 12px;
+    color:hsl(215, 51%, 70%) ;
+    display: inline-block;
+    text-align: center;
+    padding-left: 5px;
+
+
+}
+.Line{
+    border: 1px solid hsl(215, 32%, 27%);
+    width: 250px;
+    margin-top: 20px;
+   margin-left: 25px;
+    
+}
+.Creation{
+    display:flex;
+    flex-flow: row nowrap;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.Creation img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border:2px solid white;
+    margin-top: 0;
+
+}
+.Creation p{
+    color:hsl(215, 51%, 70%) ;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+.Creation p b{
+    color: white;
+
+}
